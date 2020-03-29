@@ -1,0 +1,41 @@
+{
+  "name": "sam-jest",
+  "version": "1.0.0",
+  "description": "Jest test helper types and methods",
+  "author": "Sam Freeman <sam.freeman.55@gmail.com>",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "keywords": [
+    "jest",
+    "test",
+    "test utils",
+    "test helpers"
+  ],
+  "scripts": {
+    "test": "tools/test",
+    "cover": "tools/cover",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "sam-core": "^1.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^24.9.1",
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^11.15.7",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samfreeman/sam-jest.git"
+  },
+  "files": [
+    "built/**/*"
+  ]
+}
